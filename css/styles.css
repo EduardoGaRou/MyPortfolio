@@ -1,0 +1,32 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+.whole {
+	background-image: url(../img/digital_wallpaper.jpg);
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: contain;
+}
+
+.nav-link {
+	color: #F0FFFF !important;
+}
+
+.nav-link:hover {
+	color: #FFFF00 !important;
+	background-color: #000080 !important;
+}
+
+.row-content {
+	margin: 0px auto;
+	padding: 30px 0px;
+	/*min-height: 400px;*/
+}
