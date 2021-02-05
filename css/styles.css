@@ -12,8 +12,236 @@ html, body {
 .whole {
 	background-image: url(../img/digital_wallpaper.jpg);
 	background-position: center;
-	background-repeat: repeat-y;
-	background-size: contain;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.aboutMe {
+	background-color: rgba(255,166,0,1); 
+	padding-top: 65px;
+	margin: auto;
+	width: 80%;
+}
+
+	.nameDesc {
+		justify-content: center;
+		text-align: left;
+		flex-direction: column;
+	}
+
+		.nameDesc h3 {
+			font-family: 'Helvetica';
+			text-decoration: underline;
+			font-weight: bolder;
+		}
+
+		.nameDesc h5 {
+			font-weight: bold;
+		}
+
+		.listDisc {
+			list-style-type:disc;
+		}
+
+		.listSquare {
+			list-style-type:square;
+		}
+
+			.githubLink {
+				color: #B22222;
+			}
+
+	.profilePic {
+		justify-content: center;
+	}
+
+		.profilePic img {
+			background-size: cover;
+			width: 100%;
+		}
+
+.skills {
+	background-color: #9370DB;
+	padding-top: 65px;
+	padding-bottom: 100px;
+	margin: auto;
+	width: 80%;
+}
+
+	.hardSkills {
+		justify-content: center;
+		text-align: left;
+		flex-direction: column;
+	}
+
+		.hardSkills h3 {
+			font-family: 'Helvetica';
+			text-decoration: underline;
+			font-weight: bolder;
+		}
+
+	.hardVisual {
+		justify-content: center;
+		padding-top: 36px;
+	}
+
+	.skillsImg {
+		background-size: cover;
+		width: 80%;
+	}
+
+	.softSkills {
+		justify-content: center;
+		text-align: left;
+		flex-direction: column;
+	}
+
+		.softSkills h3 {
+			font-family: 'Helvetica';
+			text-decoration: underline;
+			font-weight: bolder;
+		}
+
+	.softVisual {
+		justify-content: center;
+		padding-top: 18px;
+	}
+
+.experiences {
+	background-color: #9ACD32;
+	padding-top: 30px;
+	width: 80%;
+	margin: auto;
+}
+
+	.experiences h3 {
+		font-family: 'Helvetica';
+		text-decoration: underline;
+		font-weight: bolder;
+	}
+
+	.expVisual {
+		justify-content: center;
+	}
+
+	.ITPImg {
+		background-size: cover;
+		width: 50%;
+	}
+
+	.ITPText {
+		padding-top: 40px;
+	}
+
+	.AngularImg {
+		background-size: cover;
+		width: 100%;
+	}
+
+	.AngularText {
+		padding-top: 30px;
+	}
+
+	.ReactText {
+		padding-top: 60px;
+	}
+
+	.AndroidText {
+		padding-top: 40px;
+	}
+
+	.UltraText {
+		padding-top: 60px;
+	}
+
+	.AESText {
+		padding-top: 60px;
+	}
+
+	.CapaText {
+		padding-top: 60px;
+	}
+
+	.ClusterImg {
+		background-size: cover;
+		width: 100%;
+	}
+
+	.ClusterText {
+		padding-top: 40px;
+	}
+
+	.SmartCamText {
+		padding-top: 40px;
+	}
+
+.softwares {
+	background-color: #87CEFA;
+	padding-top: 30px;
+	width: 80%;
+	margin: auto;
+}
+
+	.softwares h3 {
+		font-family: 'Helvetica';
+		text-decoration: underline;
+		font-weight: bolder;
+	}
+
+	.softwares h5 {
+		font-weight: bold;
+	}
+
+	.softMedia {
+		justify-content: center;
+		padding-top: 18px;
+	}
+
+	.softImg {
+		background-size: cover;
+		width: 100%;
+	}
+
+	.softLays {
+		justify-content: center;
+		text-align: left;
+		flex-direction: column;
+	}
+
+	.langLays1 {
+		text-align: left;
+		flex-direction: column;
+	}
+
+	.langLays2 {
+		margin: 0px !important;
+		flex-direction: column;
+	}
+
+.cv {
+	background-color: #8FBC8F;
+	padding-top: 65px;
+	width: 80%;
+	margin: auto;
+}
+
+	.cv h3 {
+		font-family: 'Helvetica';
+		text-decoration: underline;
+		font-weight: bolder;
+		padding-left: 30px;
+	}
+
+	.cvPDF {
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 65px;
+		padding-left: 30px;
+	}
+
+.videoLayout {
+	width: 560px;
+	height: 315px;
 }
 
 .nav-link {
@@ -29,4 +257,236 @@ html, body {
 	margin: 0px auto;
 	padding: 30px 0px;
 	/*min-height: 400px;*/
+}
+
+
+/*FOR IPAD*/
+@media only screen and (max-width: 991px) and (min-width: 501px) {
+	.aboutMeLayout {
+		flex-direction: column;
+	}
+
+	.skillsLayout {
+		flex-direction: column;
+	}
+
+		.softMargin {
+			margin-top: 20%;
+		}
+
+	.ITPLayout {
+		flex-direction: column;
+	}
+
+	.AngularLayout {
+		flex-direction: column;
+	}
+
+	.ReactLayout {
+		flex-direction: column;
+	}
+
+	.AndroidLayout {
+		flex-direction: column;
+	}
+
+	.UltraLayout {
+		flex-direction: column;
+	}
+
+	.AESLayout {
+		flex-direction: column;
+	}
+
+	.CapaLayout {
+		flex-direction: column;
+	}
+
+	.ClusterLayout {
+		flex-direction: column;
+	}
+
+	.SmartCamLayout {
+		flex-direction: column;
+	}
+
+	.ITPText {
+		padding-top: 20px;
+	}
+
+	.AngularText {
+		padding-top: 20px;
+	}
+
+	.ReactText {
+		padding-top: 20px;
+	}
+
+	.AndroidText {
+		padding-top: 20px;
+	}
+
+	.UltraText {
+		padding-top: 20px;
+	}
+
+	.AESText {
+		padding-top: 20px;
+	}
+
+	.CapaText {
+		padding-top: 20px;
+	}
+
+	.ClusterText {
+		padding-top: 20px;
+	}
+
+	.SmartCamText {
+		padding-top: 20px;
+	}
+
+	.softwaresLayout {
+		flex-direction: column;
+	}
+
+		.langMargin {
+			margin-top: 10%;
+		}
+}
+
+/*FOR MOBILE PHONE*/
+@media only screen and (max-width: 500px) {
+	.aboutMe {
+		background-color: rgba(255,166,0,1); 
+		padding-top: 65px;
+		margin: auto;
+		width: 100%;
+	}
+
+	.skills {
+		background-color: #9370DB;
+		padding-top: 65px;
+		padding-bottom: 100px;
+		margin: auto;
+		width: 100%;
+	}
+
+	.experiences {
+		background-color: #9ACD32;
+		padding-top: 30px;
+		width: 100%;
+		margin: auto;
+	}
+
+	.softwares {
+		background-color: #87CEFA;
+		padding-top: 30px;
+		width: 100%;
+		margin: auto;
+	}
+
+	.cv {
+		background-color: #8FBC8F;
+		padding-top: 65px;
+		width: 100%;
+		margin: auto;
+	}
+
+	.aboutMeLayout {
+		flex-direction: column;
+	}
+
+	.skillsLayout {
+		flex-direction: column;
+	}
+
+		.softMargin {
+			margin-top: 20%;
+		}
+
+	.ITPLayout {
+		flex-direction: column;
+	}
+
+	.AngularLayout {
+		flex-direction: column;
+	}
+
+	.ReactLayout {
+		flex-direction: column;
+	}
+
+	.AndroidLayout {
+		flex-direction: column;
+	}
+
+	.UltraLayout {
+		flex-direction: column;
+	}
+
+	.AESLayout {
+		flex-direction: column;
+	}
+
+	.CapaLayout {
+		flex-direction: column;
+	}
+
+	.ClusterLayout {
+		flex-direction: column;
+	}
+
+	.SmartCamLayout {
+		flex-direction: column;
+	}
+
+	.ITPText {
+		padding-top: 20px;
+	}
+
+	.AngularText {
+		padding-top: 20px;
+	}
+
+	.ReactText {
+		padding-top: 20px;
+	}
+
+	.AndroidText {
+		padding-top: 20px;
+	}
+
+	.UltraText {
+		padding-top: 20px;
+	}
+
+	.AESText {
+		padding-top: 20px;
+	}
+
+	.CapaText {
+		padding-top: 20px;
+	}
+
+	.ClusterText {
+		padding-top: 20px;
+	}
+
+	.SmartCamText {
+		padding-top: 20px;
+	}
+
+	.softwaresLayout {
+		flex-direction: column;
+	}
+
+		.langMargin {
+			margin-top: 10%;
+		}
+
+	.videoLayout {
+		width: 400px;
+		height: 215px;
+	}
 }
