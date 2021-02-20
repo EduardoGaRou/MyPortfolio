@@ -239,6 +239,15 @@ html, body {
 		padding-left: 30px;
 	}
 
+	.cvLayout {
+		flex-direction: column;
+	}
+
+	.download {
+		margin-bottom: 20px;
+		justify-content: center;
+	}
+
 .videoLayout {
 	width: 560px;
 	height: 315px;
