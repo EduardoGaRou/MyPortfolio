@@ -384,7 +384,7 @@ html, body {
 
 	.fake {
 		background-color: rgba(255,166,0,1);
-		height: 300px;
+		height: 300px !important;
 	}
 
 	.skills {
