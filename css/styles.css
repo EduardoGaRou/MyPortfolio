@@ -60,6 +60,10 @@ html, body {
 			width: 100%;
 		}
 
+.fake {
+	height: 0px;
+}
+
 .skills {
 	background-color: #9370DB;
 	padding-top: 65px;
@@ -275,6 +279,10 @@ html, body {
 		flex-direction: column;
 	}
 
+	.fake {
+		height: 300px;
+	}
+
 	.skillsLayout {
 		flex-direction: column;
 	}
@@ -371,6 +379,10 @@ html, body {
 		padding-top: 65px;
 		margin: auto;
 		width: 100%;
+	}
+
+	.fake {
+		height: 300px;
 	}
 
 	.skills {
